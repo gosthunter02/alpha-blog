@@ -17,7 +17,7 @@ $navbar-default-bg: #4d4d4d;
   text-decoration: none;
 }
 
-#article {
+.nav.navbar-nav > li > a {
   float: left;
   font-size: 1.2em;
   color: #fff;
@@ -25,10 +25,28 @@ $navbar-default-bg: #4d4d4d;
   letter-spacing: -1px;
 }
 
-#article:hover {
+.nav.navbar-nav > li > a:hover {
   color: #fff;
   text-decoration: none;
 }
+
+.nav.navbar-nav > li > a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  background: #4d4d4d;
+}
+
+.dropdown-menu > li > a {
+  float: left;
+  font-size: 1.0em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
 
 .center {
   text-align: center;
