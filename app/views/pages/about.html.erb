@@ -1,25 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>About Page</title>
-  </head>
-  <body>
-    <%= image_tag 'RoR.png' %>
-    
-    <div class = "container">
-      <h1> Welcome to the About Me Page</h1>
-      
-      <div id="nav">
-        <ul>
-          <li><%= link_to 'Home', root_path %></li>
-        </ul>
-        <p> 
-          <h3>About Me</h3>
-          I am just beginning to code in Rails and HTML/CSS so my design
-          for these two pages is very minimal and terrible.
-        </p>
-      </div>
-    </div>
-  </body>
-</html>
+<div class="center jumbotron" align="center">
+  <h1>Alpha Blog</h1>
+  <%= link_to "Get Started", "#", class: "btn btn-danger btn-med" %>
+</div>
+<h1 align="center">About Me</h1>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+    <p align="justified">
+          Welcome to my first web app created by Ruby on Rails. This is just a very quick
+    section that gives some details about me and my experience in coding and where
+    I plan to go with this site.
+    </p>
+    <p align="justified">
+          I started to code back in highschool and began with using Visual Basic, I
+    loved the implementation and how easy it was to get into coding by just
+    drag and dropping the UI elements and then having the code there, all you had
+    to do was implement it. I soon moved to Java and began coding in that for the
+    next 4 years.
+    </p>
+    <p align="justified">
+          Fastforward to now, and I am in college and after all my school experience, I
+    have never had to do anything other than Java and I realize there are so many
+    more languages out there to learn so here I am trying to expand my knowledge.
+    </p>
+  </div>
+</div>
+
