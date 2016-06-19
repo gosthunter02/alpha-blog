@@ -6,7 +6,6 @@ class ArticlesController < ApplicationController
     @articles = Article.all
   end
   
-  
   def new
     @article = Article.new  
   end
@@ -23,11 +22,9 @@ class ArticlesController < ApplicationController
   end
   
   def show
-    
   end
   
   def edit
-    
   end
   
   def update
@@ -44,7 +41,6 @@ class ArticlesController < ApplicationController
     flash[:notice] = "Article was successfully deleted"
     redirect_to articles_path
   end
-  
   
   
   private
