@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
   has_many :articles
+  has_secure_password
   before_save { self.email = email.downcase } #sets email to lowercase before saving
   
   validates :username, presence: true, 
@@ -13,5 +14,4 @@ class User < ActiveRecord::Base
              format: { with: VALID_EMAIL_REGEX }
              
   
-  has_secure_password
 end
