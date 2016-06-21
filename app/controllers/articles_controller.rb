@@ -16,7 +16,6 @@ class ArticlesController < ApplicationController
   
     @article = Article.new(article_params)
     @article.user = current_user
-    #Checks to see if validations passed
     if @article.save
       flash[:success] = "Article was successfully created" #shows message to creator 
       redirect_to article_path(@article)
