@@ -35,6 +35,25 @@ $navbar-default-bg: #4d4d4d;
   text-decoration: none;
 }
 
+nav.navbar-nav.navbar-right > li > a {
+  float: left;
+  font-size: 1.2em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+nav.navbar-nav.navbar-right > li > a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav.navbar-nav.navbar-right > li > a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+
 .dropdown-menu {
   background: #4d4d4d;
 }
